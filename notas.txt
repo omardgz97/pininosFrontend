@@ -1,0 +1,13 @@
+Si quieres centrar el texto dentro de la div, puedes hacer:
+
+.container { text-align: center; }
+
+Ah, pero ¿y si no quiero centrar el contenido, sino la div en la pantalla? La forma en que lo hicimos no funcionará. En este caso, básicamente tenemos que hacer dos cosas:
+
+Dar un tamaño a la div y establecer los márgenes izquierdo y derecho en auto:
+
+.container { 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
